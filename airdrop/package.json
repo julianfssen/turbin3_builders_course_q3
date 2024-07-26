@@ -1,0 +1,29 @@
+{
+  "name": "airdrop",
+  "version": "1.0.0",
+  "description": "Prerequisite dApp for enrolling into WBA (Turbin3)",
+  "main": "index.js",
+  "author": "julianfssen",
+  "license": "MIT",
+  "scripts": {
+    "keygen": "ts-node ./keygen.ts",
+    "airdrop": "ts-node ./airdrop.ts",
+    "transfer": "ts-node ./transfer.ts",
+    "enroll": "ts-node ./enroll.ts",
+    "wallet-to-bs58": "ts-node ./cli/byte-array-to-bs58.ts",
+    "bs58-to-wallet": "ts-node ./cli/bs58-to-byte-array.ts",
+    "test-tx": "ts-node ./test.ts"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.1",
+    "@solana/web3.js": "^1.95.1",
+    "@types/node": "^20.14.12",
+    "bs58": "^6.0.0",
+    "prompt-sync": "^4.2.0",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@types/prompt-sync": "^4.2.3",
+    "ts-node": "^10.9.2"
+  }
+}
