@@ -1,5 +1,7 @@
 # airdrop
 
+**NOTE**: The original repo with the full commit history is at: https://github.com/julianfssen/airdrop
+
 `airdrop` is a Solana dApp (written in Typescript) that interacts with the token program onchain.
 
 This program is the prerequisite dApp for the first phase of the WBA Turbin3 program.

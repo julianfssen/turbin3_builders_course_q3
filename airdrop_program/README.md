@@ -1,5 +1,7 @@
 # airdrop
 
+**NOTE**: The repo with the full commit history is available at: https://github.com/julianfssen/airdrop_program
+
 `airdrop_program` is a Solana dApp (written in Rust) that interacts with the token program onchain.
 
 This program is the prerequisite dApp for the first phase of the WBA Turbin3 program.
