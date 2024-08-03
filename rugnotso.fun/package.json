@@ -1,11 +1,12 @@
 {
-  "name": "rugnotso.fun",
+ "name": "rugnotso.fun",
   "version": "0.0.1",
   "description": "pump.fun clone for 1-click NFT launches on Solana devnet",
-  "main": "index.js",
+  "exports": "./src/index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "keywords": [
     "solana",
     "devnet",
